@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Claude Code per-user overrides
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Build / temp
+.tmp/
+dist/
+build/
+*.log
