@@ -26,3 +26,11 @@ Thumbs.db
 dist/
 build/
 *.log
+
+# Run log, handoff files and scheduler output (they point at guest email)
+runs/*
+!runs/README.md
+!runs/.gitkeep
+
+# Your filled-in copy of .claude/settings.example.json
+.claude/settings.scheduled.json
